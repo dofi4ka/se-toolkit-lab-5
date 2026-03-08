@@ -59,3 +59,36 @@ tr:nth-child(even) {
   padding: 0.25rem 0.75rem;
   font-size: 0.85rem;
 }
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+nav button {
+  padding: 0.25rem 0.75rem;
+}
+
+nav button.nav-active {
+  font-weight: bold;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboard-controls {
+  margin-bottom: 0.5rem;
+}
+
+.chart-container {
+  max-width: 600px;
+}
+
+.chart-container h2,
+.dashboard-table h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
